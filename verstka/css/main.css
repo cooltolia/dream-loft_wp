@@ -1,0 +1,1632 @@
+@font-face {
+  font-family: 'Aristotelica';
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/AristotelicaTextTrial-Regular.woff2") format("woff2"), url("../fonts/AristotelicaTextTrial-Regular.woff") format("woff"); }
+
+@font-face {
+  font-family: 'Aristotelica';
+  font-weight: 600;
+  font-style: normal;
+  src: url("../fonts/AristotelicaTextTrial-DemiBold.woff2") format("woff2"), url("../fonts/AristotelicaTextTrial-DemiBold.woff") format("woff"); }
+
+/*! normalize.scss v0.1.0 | MIT License | based on git.io/normalize */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/**
+ * Remove default margin.
+ */
+body {
+  margin: 0; }
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block; }
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */ }
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
+ */
+[hidden],
+template {
+  display: none; }
+
+/* Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+a {
+  background-color: transparent; }
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+a:active,
+a:hover {
+  outline: 0; }
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+b,
+strong {
+  font-weight: bold; }
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+dfn {
+  font-style: italic; }
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -0.5em; }
+
+sub {
+  bottom: -0.25em; }
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+img {
+  border: 0; }
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+figure {
+  margin: 1em 40px; }
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+hr {
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  height: 0; }
+
+/**
+ * Contain overflow in all browsers.
+ */
+pre {
+  overflow: auto; }
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em; }
+
+/* Forms
+   ========================================================================== */
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0;
+  /* 3 */ }
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+button {
+  overflow: visible; }
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+button,
+select {
+  text-transform: none; }
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */ }
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+button[disabled],
+html input[disabled] {
+  cursor: default; }
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+input {
+  line-height: normal; }
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+input[type="checkbox"],
+input[type="radio"] {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
+ *    (include `-moz` to future-proof).
+ */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box; }
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+textarea {
+  overflow: auto; }
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+optgroup {
+  font-weight: bold; }
+
+/* Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+td,
+th {
+  padding: 0; }
+
+.hamburger {
+  display: none;
+  width: 20px; }
+  .hamburger:hover {
+    cursor: pointer; }
+
+.hamburger__line {
+  width: 100%;
+  height: 2px;
+  background-color: #000000;
+  display: block;
+  margin: 0 auto 5px;
+  -webkit-transition: all 300ms ease;
+  -moz-transition: all 300ms ease;
+  transition: all 300ms ease; }
+  .hamburger__line:last-child {
+    margin-bottom: 0; }
+
+.hamburger.active .hamburger__line:nth-child(2) {
+  opacity: 0; }
+
+.hamburger.active .hamburger__line:nth-child(1) {
+  -webkit-transform: translateY(7px) rotate(45deg);
+     -moz-transform: translateY(7px) rotate(45deg);
+      -ms-transform: translateY(7px) rotate(45deg);
+          transform: translateY(7px) rotate(45deg); }
+
+.hamburger.active .hamburger__line:nth-child(3) {
+  -webkit-transform: translateY(-7px) rotate(-45deg);
+     -moz-transform: translateY(-7px) rotate(-45deg);
+      -ms-transform: translateY(-7px) rotate(-45deg);
+          transform: translateY(-7px) rotate(-45deg); }
+
+@media (max-width: 480px) {
+  .hamburger {
+    display: block; } }
+
+.index-catalog {
+  width: 100%;
+  max-width: 1920px;
+  padding: 25px 25px;
+  margin: 0 auto;
+  background-color: transparent; }
+
+.index-catalog__heading {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden; }
+
+.index-catalog__grid {
+  width: 100%; }
+  .index-catalog__grid::after {
+    content: '';
+    display: table;
+    clear: both; }
+
+.index-catalog__item {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 5px;
+  overflow: hidden; }
+  .index-catalog__item--2x {
+    width: 605px;
+    height: 605px; }
+  .index-catalog__item img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    -webkit-transition: -webkit-transform 300ms ease;
+    transition: -webkit-transform 300ms ease;
+    -moz-transition: transform 300ms ease, -moz-transform 300ms ease;
+    transition: transform 300ms ease;
+    transition: transform 300ms ease, -webkit-transform 300ms ease, -moz-transform 300ms ease; }
+  .index-catalog__item:hover img {
+    -webkit-transform: scale(1.05);
+       -moz-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+            transform: scale(1.05); }
+
+.index-catalog__label {
+  position: absolute;
+  width: 100%;
+  padding: 15px 40px 15px 20px;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(159, 159, 159, 0.8);
+  color: #ffffff;
+  font-size: 21px;
+  font-weight: 700; }
+  .index-catalog__label::after {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 24px;
+    top: 50%;
+    right: 20px;
+    -webkit-transform: translateY(-50%);
+       -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+    background-image: url("../images/right-arrow.svg");
+    background-size: cover; }
+  .index-catalog__label span {
+    position: relative;
+    display: inline-block; }
+    .index-catalog__label span::after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 1px;
+      bottom: 0;
+      left: 0;
+      background-color: #ffffff; }
+
+@media (max-width: 480px) {
+  .index-catalog__item {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    max-width: 320px;
+    max-height: 320px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    overflow: hidden; }
+    .index-catalog__item--2x {
+      width: 100%;
+      height: 100%;
+      max-width: 320px;
+      max-height: 320px; } }
+
+.inner {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  min-width: 320px;
+  max-width: 480px;
+  padding: 0 10px; }
+
+@media (min-width: 481px) {
+  .inner {
+    max-width: 740px;
+    padding: 0 20px; } }
+
+@media (min-width: 768px) {
+  .inner {
+    max-width: 840px;
+    padding: 0 20px; } }
+
+@media (min-width: 1200px) {
+  .inner {
+    max-width: 1170px;
+    padding: 0 20px; } }
+
+.main-footer {
+  width: 100%;
+  padding: 15px 25px;
+  margin: 0 auto;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  color: #000000;
+  background-color: rgba(255, 255, 255, 0.25);
+  border-top: 1px dashed #acacac; }
+
+.main-footer__inner {
+  display: block;
+  max-width: 1240px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+     -moz-box-orient: horizontal;
+     -moz-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: justify;
+     -moz-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.main-footer__socials {
+  width: 50%;
+  -webkit-box-flex: 0;
+     -moz-box-flex: 0;
+      -ms-flex: 0 1 auto;
+          flex: 0 1 auto; }
+
+.main-footer__contacts {
+  width: 50%;
+  -webkit-box-flex: 0;
+     -moz-box-flex: 0;
+      -ms-flex: 0 1 auto;
+          flex: 0 1 auto;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+     -moz-box-orient: horizontal;
+     -moz-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: end;
+     -moz-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: start;
+     -moz-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start; }
+
+.main-footer__main-tel {
+  position: relative;
+  margin-right: 40px;
+  padding-left: 25px;
+  font-size: 21px;
+  font-weight: 400; }
+  .main-footer__main-tel::after {
+    content: '';
+    position: absolute;
+    width: 19px;
+    height: 18px;
+    left: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+       -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+    background-image: url("../images/phone.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; }
+
+.main-footer__messenger-tel {
+  font-size: 21px;
+  font-weight: 400;
+  text-align: center; }
+
+.main-footer__messenger-list {
+  font-size: 16px;
+  font-weight: 400; }
+
+@media (max-width: 480px) {
+  .main-footer__main-tel {
+    margin-right: 0;
+    padding-left: 5px;
+    font-size: 16px; }
+    .main-footer__main-tel::after {
+      width: 12px;
+      height: 13px;
+      left: -10px; }
+  .main-footer__messenger-tel {
+    font-size: 16px; }
+  .main-footer__messenger-list {
+    font-size: 13px; } }
+
+.main-header {
+  width: 100%;
+  padding: 10px 25px 15px;
+  margin: 0 auto;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  color: #000000;
+  background-color: rgba(255, 255, 255, 0.25);
+  border-bottom: 1px dashed #acacac; }
+
+.main-header__inner {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+     -moz-box-orient: horizontal;
+     -moz-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: justify;
+     -moz-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.main-header__logo {
+  width: 250px;
+  height: 57px;
+  margin-right: 25px; }
+  .main-header__logo img {
+    display: block;
+    width: 100%;
+    max-width: 100%; }
+
+.main-header__navigation {
+  width: auto;
+  -webkit-box-flex: 0;
+     -moz-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  margin-right: 45px;
+  margin-left: auto; }
+
+.main-header__contacts {
+  width: auto;
+  -webkit-box-flex: 0;
+     -moz-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  font-size: 16px;
+  text-align: center; }
+
+.main-header__tel {
+  font-size: 21px; }
+
+.main-header__hamburger {
+  position: absolute;
+  top: 32px;
+  right: 25px; }
+
+@media (max-width: 480px) {
+  .main-header__logo {
+    width: 220px; }
+  .main-header__contacts {
+    margin: 0 auto 0; }
+  .main-header__navigation {
+    display: none; }
+  .main-header__tel {
+    font-size: 16px; } }
+
+.main-nav {
+  width: auto; }
+
+.main-nav__list {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+     -moz-box-orient: horizontal;
+     -moz-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: start;
+     -moz-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+
+.main-nav__item {
+  position: relative;
+  margin-right: 20px; }
+  .main-nav__item:last-child {
+    margin-right: 0; }
+
+.main-nav__item.has-subnav::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+     -moz-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  top: 48px;
+  opacity: 0;
+  border: 5px solid black;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-top-width: 0;
+  -webkit-transition: opacity 300ms ease;
+  -moz-transition: opacity 300ms ease;
+  transition: opacity 300ms ease; }
+
+.main-nav__item.has-subnav:hover::after {
+  opacity: 1; }
+
+.main-nav__link {
+  position: relative;
+  display: block;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+  -webkit-transition: color 300ms ease;
+  -moz-transition: color 300ms ease;
+  transition: color 300ms ease;
+  cursor: pointer; }
+  .main-nav__link:hover, .main-nav__link:active, .main-nav__link:focus {
+    text-decoration: none;
+    color: #000000; }
+  .main-nav__link::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    left: 0;
+    bottom: 0;
+    background-color: #acacac; }
+
+.main-nav__subnav {
+  display: block;
+  position: fixed;
+  z-index: 2;
+  left: 0;
+  top: 50px;
+  -webkit-transform: translateX(-100%);
+     -moz-transform: translateX(-100%);
+      -ms-transform: translateX(-100%);
+          transform: translateX(-100%);
+  width: 100%;
+  padding-top: 30px;
+  -webkit-transition: -webkit-transform 300ms ease;
+  transition: -webkit-transform 300ms ease;
+  -moz-transition: transform 300ms ease, -moz-transform 300ms ease;
+  transition: transform 300ms ease;
+  transition: transform 300ms ease, -webkit-transform 300ms ease, -moz-transform 300ms ease; }
+
+.main-nav__sublist {
+  list-style: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+     -moz-box-orient: horizontal;
+     -moz-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: end;
+     -moz-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 15px 25px;
+  background-color: #000; }
+
+.main-nav__subitem {
+  margin-left: 25px; }
+
+.main-nav__sublink {
+  display: inline-block;
+  color: #fff;
+  font-size: 16px; }
+  .main-nav__sublink:hover {
+    color: #fff; }
+
+.main-nav__item:hover .main-nav__subnav {
+  display: block;
+  -webkit-transform: translateX(0);
+     -moz-transform: translateX(0);
+      -ms-transform: translateX(0);
+          transform: translateX(0); }
+
+.mobile-nav {
+  display: none; }
+
+@media (max-width: 480px) {
+  .main-nav {
+    display: none; }
+  .mobile-nav {
+    display: none;
+    position: absolute;
+    margin-top: 65px;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    z-index: 19;
+    background-color: rgba(0, 0, 0, 0.5); }
+  .mobile-nav__list {
+    list-style: none;
+    position: absolute;
+    width: 80%;
+    min-width: 300px;
+    padding: 25px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+       -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+    background-color: #fafafa;
+    -webkit-box-shadow: 0 2px 5px 5px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 2px 5px 5px rgba(0, 0, 0, 0.1); }
+  .mobile-nav__item {
+    padding: 12px 7px 10px;
+    text-align: center; }
+  .mobile-nav__link {
+    display: inline-block;
+    padding: 0 25px;
+    position: relative;
+    color: #000000;
+    font-size: 16px;
+    line-height: 1;
+    -webkit-transition: color 300ms ease;
+    -moz-transition: color 300ms ease;
+    transition: color 300ms ease; }
+    .mobile-nav__link:hover, .mobile-nav__link:active, .mobile-nav__link:focus {
+      color: #ff7200;
+      text-decoration: none; }
+    .mobile-nav__link.has-submenu::after {
+      content: '';
+      position: absolute;
+      width: 12px;
+      height: 12px;
+      right: 0;
+      top: 50%;
+      -webkit-transform: translateY(-50%) rotate(-90deg);
+         -moz-transform: translateY(-50%) rotate(-90deg);
+          -ms-transform: translateY(-50%) rotate(-90deg);
+              transform: translateY(-50%) rotate(-90deg);
+      background-image: url("../images/arrow.svg");
+      background-size: contain;
+      -webkit-transition: -webkit-transform 300ms ease;
+      transition: -webkit-transform 300ms ease;
+      -moz-transition: transform 300ms ease, -moz-transform 300ms ease;
+      transition: transform 300ms ease;
+      transition: transform 300ms ease, -webkit-transform 300ms ease, -moz-transform 300ms ease; }
+    .mobile-nav__link.active::after {
+      -webkit-transform: translateY(-50%) rotate(0deg);
+         -moz-transform: translateY(-50%) rotate(0deg);
+          -ms-transform: translateY(-50%) rotate(0deg);
+              transform: translateY(-50%) rotate(0deg); }
+  .mobile-nav__submenu,
+  .mobile-nav__thirdmenu {
+    display: none; }
+  .mobile-nav__submenu {
+    list-style: none;
+    padding: 0;
+    padding-top: 15px; }
+  .mobile-nav__subitem {
+    padding: 6px 5px 5px;
+    text-align: center; }
+  .mobile-nav__sublink {
+    display: inline-block;
+    padding: 0 15px;
+    position: relative;
+    color: #000000;
+    font-size: 14px;
+    line-height: 1;
+    -webkit-transition: color 300ms ease;
+    -moz-transition: color 300ms ease;
+    transition: color 300ms ease; }
+    .mobile-nav__sublink:hover, .mobile-nav__sublink:active, .mobile-nav__sublink:focus {
+      color: #ff7200;
+      text-decoration: none; } }
+
+.map__inner {
+  height: 342px;
+  max-width: 1920px;
+  margin: 0 auto; }
+
+@media (min-width: 1200px) {
+  .map__inner {
+    height: 615px; } }
+
+.modal {
+  width: 80%;
+  max-width: 480px;
+  margin: 0 auto;
+  font-family: Roboto, Helvetica, Arial, sans-serif; }
+
+.modal-dialog {
+  width: 100%;
+  margin: 0;
+  margin-top: 50px; }
+
+.modal-header {
+  padding: 0;
+  border: none; }
+  .modal-header .close {
+    position: absolute;
+    z-index: 99;
+    top: 5px;
+    right: 15px;
+    font-size: 30px;
+    font-weight: 100; }
+
+.modal-body {
+  padding: 0; }
+
+.modal-content {
+  border: none;
+  background-color: #fff; }
+
+.modal-form {
+  padding: 55px 20px 25px;
+  max-width: 325px;
+  margin: 0 auto; }
+
+.modal-input-row {
+  margin-bottom: 30px; }
+
+.modal-label {
+  margin-bottom: 10px;
+  color: #131313;
+  font-size: 15px;
+  font-weight: 300; }
+
+.modal-input {
+  width: 100%;
+  padding: 15px;
+  border-radius: 3px;
+  border: 1px solid #dcdcdc;
+  background-color: #fff;
+  color: #131313;
+  font-size: 15px;
+  font-weight: 300; }
+  .modal-input::-webkit-input-placeholder {
+    color: #1f1f1f; }
+  .modal-input:-moz-placeholder {
+    color: #1f1f1f; }
+  .modal-input:-ms-input-placeholder {
+    color: #1f1f1f; }
+  .modal-input::placeholder {
+    color: #1f1f1f; }
+
+.modal-submit {
+  position: relative;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+     -moz-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 12px 20px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0 auto;
+  border-radius: 50px;
+  border: 1px solid #ff7200;
+  background-color: #ff7200;
+  -webkit-transition: all 300ms ease;
+  -moz-transition: all 300ms ease;
+  transition: all 300ms ease; }
+  .modal-submit:hover, .modal-submit:active, .modal-submit:focus {
+    color: #ffffff;
+    background-color: #cc5b00; }
+  .modal-submit:active {
+    background-color: #994400; }
+
+body.modal-open {
+  overflow: auto !important;
+  padding-right: 0 !important; }
+
+@media (max-width: 480px) {
+  .modal {
+    width: 90%;
+    max-width: 360px; }
+  .modal-form {
+    padding-top: 25px; }
+  .modal-submit {
+    font-size: 20px; } }
+
+.product-description {
+  width: 100%;
+  padding: 20px;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  background-color: rgba(255, 255, 255, 0.35); }
+
+.product-description__title {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 30px;
+  font-weight: 700; }
+
+.product-description__block {
+  margin-bottom: 15px; }
+
+.product-description__subtitle {
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-weight: 700; }
+
+.product-description__text {
+  margin: 0;
+  color: #3c3c3c;
+  font-size: 14px;
+  font-style: italic; }
+  .product-description__text--highlight {
+    padding: 10px;
+    border: 1px inset black; }
+
+.product-description__desc-trigger {
+  display: block;
+  margin: 0;
+  padding: 10px;
+  color: #3c3c3c;
+  font-size: 14px;
+  font-style: italic;
+  border: 1px inset black; }
+  .product-description__desc-trigger:hover, .product-description__desc-trigger:active, .product-description__desc-trigger:focus {
+    color: #3c3c3c; }
+
+.product-description__table {
+  color: #3c3c3c;
+  font-size: 14px;
+  font-style: italic; }
+
+table {
+  width: 100%; }
+
+td {
+  width: 25%;
+  text-align: left; }
+
+.product-description__price {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700; }
+
+.product-description__description {
+  display: none;
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.3); }
+
+.product-card {
+  width: 100%;
+  padding: 20px;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  background-color: rgba(255, 255, 255, 0.35); }
+
+.product-card__title {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 30px;
+  font-weight: 700; }
+
+.product-card__block {
+  margin-bottom: 15px; }
+
+.product-card__subtitle {
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-weight: 700; }
+
+.product-card__text {
+  margin: 0;
+  color: #3c3c3c;
+  font-size: 14px;
+  font-style: italic; }
+  .product-card__text--highlight {
+    padding: 10px;
+    border: 1px inset black; }
+
+.product-card__desc-trigger {
+  display: block;
+  margin: 0;
+  padding: 10px;
+  color: #3c3c3c;
+  font-size: 14px;
+  font-style: italic;
+  border: 1px inset black; }
+  .product-card__desc-trigger:hover, .product-card__desc-trigger:active, .product-card__desc-trigger:focus {
+    color: #3c3c3c; }
+
+.product-card__table {
+  color: #3c3c3c;
+  font-size: 14px;
+  font-style: italic; }
+
+table {
+  width: 100%; }
+
+td {
+  width: 25%;
+  text-align: left; }
+
+.product-card__price {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700; }
+
+.product-page {
+  position: relative;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  margin-top: 20px; }
+
+.product-page__images {
+  position: relative;
+  z-index: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+     -moz-box-orient: horizontal;
+     -moz-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap; }
+
+.product-page__image {
+  width: 50%; }
+  .product-page__image img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    max-height: 100%; }
+
+.product-page__container {
+  position: absolute;
+  top: 10px;
+  left: 25px; }
+
+.product-page__description-card {
+  width: 280px;
+  padding-top: 10px; }
+
+.product-page__description-text {
+  position: absolute;
+  width: 100%;
+  min-width: 400px;
+  top: 10px;
+  left: 290px;
+  padding: 15px;
+  padding-right: 25px;
+  color: #dbd8d8;
+  background-color: rgba(0, 0, 0, 0.6);
+  font-size: 14px;
+  font-weight: 400; }
+  .product-page__description-text span {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    padding: 5px;
+    cursor: pointer; }
+  .product-page__description-text p {
+    margin: 0; }
+
+@media (max-width: 480px) {
+  .product-page__container {
+    width: 100%;
+    max-width: 320px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+       -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%); }
+  .product-page__description-card {
+    width: 100%;
+    max-width: 320px; }
+  .product-page__image {
+    width: 100%; }
+  .product-page__description-text {
+    width: 100%;
+    max-width: 320px;
+    min-width: auto;
+    top: 10px;
+    left: 0;
+    padding: 15px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.8);
+    font-size: 14px;
+    font-weight: 400; } }
+
+.hidden {
+  visibility: hidden; }
+
+.hiding {
+  opacity: 0;
+  -webkit-animation: bounceBack 500ms ease;
+     -moz-animation: bounceBack 500ms ease;
+          animation: bounceBack 500ms ease; }
+
+.showing {
+  visibility: visible;
+  -webkit-animation: bounceInLeft 500ms ease;
+     -moz-animation: bounceInLeft 500ms ease;
+          animation: bounceInLeft 500ms ease; }
+
+@-webkit-keyframes bounceInLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-500px);
+            transform: translateX(-500px); }
+  60% {
+    -webkit-transform: translateX(20px);
+            transform: translateX(20px); }
+  80% {
+    -webkit-transform: translateX(-5px);
+            transform: translateX(-5px); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+            transform: translateX(0); } }
+
+@-moz-keyframes bounceInLeft {
+  0% {
+    opacity: 0;
+    -moz-transform: translateX(-500px);
+         transform: translateX(-500px); }
+  60% {
+    -moz-transform: translateX(20px);
+         transform: translateX(20px); }
+  80% {
+    -moz-transform: translateX(-5px);
+         transform: translateX(-5px); }
+  100% {
+    opacity: 1;
+    -moz-transform: translateX(0);
+         transform: translateX(0); } }
+
+@keyframes bounceInLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-500px);
+       -moz-transform: translateX(-500px);
+            transform: translateX(-500px); }
+  60% {
+    -webkit-transform: translateX(20px);
+       -moz-transform: translateX(20px);
+            transform: translateX(20px); }
+  80% {
+    -webkit-transform: translateX(-5px);
+       -moz-transform: translateX(-5px);
+            transform: translateX(-5px); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+       -moz-transform: translateX(0);
+            transform: translateX(0); } }
+
+@-webkit-keyframes bounceBack {
+  0% {
+    opacity: 1;
+    -webkit-transform: translateX(5px);
+            transform: translateX(5px); }
+  10% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px); }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateX(-800px);
+            transform: translateX(-800px); } }
+
+@-moz-keyframes bounceBack {
+  0% {
+    opacity: 1;
+    -moz-transform: translateX(5px);
+         transform: translateX(5px); }
+  10% {
+    -moz-transform: translateX(0px);
+         transform: translateX(0px); }
+  100% {
+    opacity: 0;
+    -moz-transform: translateX(-800px);
+         transform: translateX(-800px); } }
+
+@keyframes bounceBack {
+  0% {
+    opacity: 1;
+    -webkit-transform: translateX(5px);
+       -moz-transform: translateX(5px);
+            transform: translateX(5px); }
+  10% {
+    -webkit-transform: translateX(0px);
+       -moz-transform: translateX(0px);
+            transform: translateX(0px); }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateX(-800px);
+       -moz-transform: translateX(-800px);
+            transform: translateX(-800px); } }
+
+.product-slider {
+  width: 100%; }
+
+.product-slider__main {
+  position: relative;
+  width: 100%;
+  margin-bottom: 25px; }
+  .product-slider__main .slick-arrow {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 50%;
+    z-index: 1;
+    background: none;
+    outline: none;
+    border: none;
+    text-indent: -9999px;
+    overflow: hidden;
+    background-image: url("../images/arrow.svg");
+    background-size: contain;
+    background-position: center; }
+  .product-slider__main .slick-prev {
+    left: 25px;
+    -webkit-transform: translateY(-50%) rotate(90deg);
+       -moz-transform: translateY(-50%) rotate(90deg);
+        -ms-transform: translateY(-50%) rotate(90deg);
+            transform: translateY(-50%) rotate(90deg); }
+  .product-slider__main .slick-next {
+    right: 25px;
+    -webkit-transform: translateY(-50%) rotate(-90deg);
+       -moz-transform: translateY(-50%) rotate(-90deg);
+        -ms-transform: translateY(-50%) rotate(-90deg);
+            transform: translateY(-50%) rotate(-90deg); }
+
+.product-slider__main-slide {
+  position: relative;
+  min-height: 570px; }
+  .product-slider__main-slide img {
+    width: 100%;
+    max-width: 100%;
+    height: auto; }
+
+.product-slider__thumbs {
+  width: 100%; }
+
+.product-slider__thumb-slide {
+  cursor: pointer;
+  outline: none; }
+  .product-slider__thumb-slide img {
+    width: 100%;
+    max-width: 100%;
+    height: auto; }
+
+@media (max-width: 1240px) {
+  .product-slider__main-slide {
+    min-height: 360px; }
+  .product-slider__main .slick-prev {
+    left: 15px; }
+  .product-slider__main .slick-next {
+    right: 15px; } }
+
+.product-tabs {
+  width: 100%;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  padding-bottom: 25px; }
+
+.product-tabs__tabs {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+     -moz-box-orient: horizontal;
+     -moz-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: start;
+     -moz-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start; }
+
+.product-tabs__tab {
+  width: 50%;
+  padding: 10px;
+  -webkit-box-flex: 0;
+     -moz-box-flex: 0;
+      -ms-flex: 0 1 auto;
+          flex: 0 1 auto;
+  border-bottom: 2px solid;
+  color: #8b8b8b;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.2;
+  text-transform: uppercase;
+  cursor: pointer; }
+  .product-tabs__tab.active {
+    color: #ff7200;
+    border-bottom-color: #ff7200; }
+
+.product-tabs__content {
+  display: none;
+  width: 100%;
+  padding: 20px 0; }
+  .product-tabs__content:nth-child(2) {
+    display: block; }
+  .product-tabs__content h3 {
+    margin: 0;
+    margin-bottom: 15px;
+    color: #ff7200;
+    font-size: 16px;
+    font-weight: 400; }
+  .product-tabs__content p {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    color: #1a3445;
+    font-size: 15px;
+    font-weight: 400; }
+  .product-tabs__content ul {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 30px;
+    list-style: none; }
+  .product-tabs__content li {
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 10px;
+    color: #1a3445;
+    font-size: 15px;
+    line-height: 1.2;
+    font-weight: 400; }
+    .product-tabs__content li::before {
+      content: '';
+      position: absolute;
+      width: 6px;
+      height: 6px;
+      left: 0;
+      top: 50%;
+      -webkit-transform: translateY(-35%);
+         -moz-transform: translateY(-35%);
+          -ms-transform: translateY(-35%);
+              transform: translateY(-35%);
+      background-color: #ff7200;
+      border-radius: 50%; }
+  .product-tabs__content table {
+    width: 100%; }
+  .product-tabs__content tr {
+    border-bottom: 2px solid #bbbbbb; }
+    .product-tabs__content tr:first-child {
+      border-top: 2px solid #bbbbbb; }
+  .product-tabs__content td {
+    width: 50%;
+    padding: 15px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #fff;
+    background-color: #909090; }
+    .product-tabs__content td:nth-child(2) {
+      color: #1a3445;
+      font-size: 14px;
+      font-weight: 400;
+      background-color: #fff; }
+
+.product-tabs__content-footer {
+  margin-top: 45px;
+  color: #ff7200;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 400; }
+
+.product-tabs__content-info {
+  width: 80%;
+  padding-top: 25px;
+  color: #1a3445;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.2;
+  text-align: center; }
+
+@media (max-width: 480px) {
+  .product-tabs__tabs {
+    display: none; }
+  .product-tabs__content {
+    padding-top: 10px;
+    padding-bottom: 10px; }
+    .product-tabs__content h3 {
+      margin-bottom: 5px;
+      font-size: 16px; }
+    .product-tabs__content p {
+      margin-bottom: 15px;
+      font-size: 14px; }
+    .product-tabs__content ul {
+      margin-bottom: 15px; }
+    .product-tabs__content li {
+      margin-bottom: 5px;
+      font-size: 14px; }
+  .product-tabs__content-footer {
+    margin-top: 25px;
+    font-size: 16px; } }
+
+.socials {
+  width: 100%; }
+
+.socials__list {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+     -moz-box-orient: horizontal;
+     -moz-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+     -moz-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start; }
+
+.socials__link {
+  width: 28px;
+  height: 28px;
+  margin: 0 3px 0;
+  background-size: cover;
+  background-position: center center; }
+  .socials__link--instagram {
+    background-image: url("../images/insta.png"); }
+  .socials__link--vk {
+    background-image: url("../images/vk.svg"); }
+  .socials__link--facebook {
+    background-image: url("../images/fb.svg"); }
+  .socials__link--youtube {
+    background-image: url("../images/youtube.png"); }
+
+@media (min-width: 768px) {
+  .socials__link {
+    width: 30px;
+    height: 30px; } }
+
+@media (min-width: 1200px) {
+  .socials__link {
+    width: 32px;
+    height: 32px;
+    margin: 0 4px 0; } }
+
+html, body {
+  height: 100%; }
+
+body {
+  background-image: url("../images/index-bg.jpg");
+  background-size: cover; }
+
+/*# sourceMappingURL=main.css.map */
