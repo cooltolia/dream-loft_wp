@@ -1,0 +1,358 @@
+[25-Apr-2018 15:34:47 UTC] <trp-gettext data-trpgettextoriginal='2'>WordPress database error Table 'dream-loft.wp_trp_dictionary_en_gb_' doesn't exist for query INSERT INTO `wp_trp_gettext_en_gb` ( id, original, translated, domain, status ) VALUES ( '0', 'WordPress database error %1$s for query %2$s made by %3$s', '', 'default', '0')  made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, wp_ob_end_flush_all, ob_end_flush, TRP_Translation_Render->translate_page, TRP_Translation_Render->process_strings, TRP_Query->get_existing_translations</trp-gettext>
+[25-Apr-2018 15:34:47 UTC] <trp-gettext data-trpgettextoriginal='2'>WordPress database error Table 'dream-loft.wp_trp_dictionary_en_gb_' doesn't exist for query SHOW FULL COLUMNS FROM `wp_trp_dictionary_en_gb_` made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, wp_ob_end_flush_all, ob_end_flush, TRP_Translation_Render->translate_page, TRP_Translation_Render->process_strings, TRP_Query->get_existing_translations</trp-gettext>
+[25-Apr-2018 15:34:47 UTC] <trp-gettext data-trpgettextoriginal='2'>WordPress database error Table 'dream-loft.wp_trp_dictionary_en_gb_' doesn't exist for query SHOW FULL COLUMNS FROM `wp_trp_dictionary_en_gb_` made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, wp_ob_end_flush_all, ob_end_flush, TRP_Translation_Render->translate_page, TRP_Translation_Render->process_strings, TRP_Query->get_untranslated_strings</trp-gettext>
+[25-Apr-2018 15:34:47 UTC] <trp-gettext data-trpgettextoriginal='2'>WordPress database error Table 'dream-loft.wp_trp_dictionary_en_gb_' doesn't exist for query SHOW FULL COLUMNS FROM `wp_trp_dictionary_en_gb_` made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, wp_ob_end_flush_all, ob_end_flush, TRP_Translation_Render->translate_page, TRP_Translation_Render->process_strings, TRP_Query->get_untranslated_strings</trp-gettext>
+[25-Apr-2018 15:34:47 UTC] <trp-gettext data-trpgettextoriginal='2'>WordPress database error Table 'dream-loft.wp_trp_dictionary_en_gb_' doesn't exist for query SHOW FULL COLUMNS FROM `wp_trp_dictionary_en_gb_` made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, wp_ob_end_flush_all, ob_end_flush, TRP_Translation_Render->translate_page, TRP_Translation_Render->process_strings, TRP_Query->insert_strings</trp-gettext>
+[25-Apr-2018 15:34:47 UTC] <trp-gettext data-trpgettextoriginal='2'>WordPress database error Table 'dream-loft.wp_trp_dictionary_en_gb_' doesn't exist for query SHOW FULL COLUMNS FROM `wp_trp_dictionary_en_gb_` made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, wp_ob_end_flush_all, ob_end_flush, TRP_Translation_Render->translate_page, TRP_Query->get_string_ids</trp-gettext>
+[25-Apr-2018 15:34:47 UTC] <trp-gettext data-trpgettextoriginal='2'>WordPress database error Table 'dream-loft.wp_trp_dictionary_en_gb_' doesn't exist for query SHOW FULL COLUMNS FROM `wp_trp_dictionary_en_gb_` made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, wp_ob_end_flush_all, ob_end_flush, TRP_Translation_Render->translate_page, TRP_Query->get_string_ids</trp-gettext>
+[25-Apr-2018 15:34:47 UTC] PHP Notice:  Undefined index: Contacts in C:\OSPanel\domains\dream-loft.local\wp-content\plugins\translatepress-multilingual\includes\class-translation-render.php on line 538
+[25-Apr-2018 15:34:47 UTC] PHP Stack trace:
+[25-Apr-2018 15:34:47 UTC] PHP   1. shutdown_action_hook() C:\OSPanel\domains\dream-loft.local\wp-includes\load.php:0
+[25-Apr-2018 15:34:47 UTC] PHP   2. do_action() C:\OSPanel\domains\dream-loft.local\wp-includes\load.php:679
+[25-Apr-2018 15:34:47 UTC] PHP   3. WP_Hook->do_action() C:\OSPanel\domains\dream-loft.local\wp-includes\plugin.php:453
+[25-Apr-2018 15:34:47 UTC] PHP   4. WP_Hook->apply_filters() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:310
+[25-Apr-2018 15:34:47 UTC] PHP   5. call_user_func_array:{C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286}() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286
+[25-Apr-2018 15:34:47 UTC] PHP   6. wp_ob_end_flush_all() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286
+[25-Apr-2018 15:34:47 UTC] PHP   7. ob_end_flush() C:\OSPanel\domains\dream-loft.local\wp-includes\functions.php:3729
+[25-Apr-2018 15:34:47 UTC] PHP   8. TRP_Translation_Render->translate_page() C:\OSPanel\domains\dream-loft.local\wp-includes\functions.php:3729
+[25-Apr-2018 15:34:47 UTC] PHP Notice:  Trying to get property of non-object in C:\OSPanel\domains\dream-loft.local\wp-content\plugins\translatepress-multilingual\includes\class-translation-render.php on line 538
+[25-Apr-2018 15:34:47 UTC] PHP Stack trace:
+[25-Apr-2018 15:34:47 UTC] PHP   1. shutdown_action_hook() C:\OSPanel\domains\dream-loft.local\wp-includes\load.php:0
+[25-Apr-2018 15:34:47 UTC] PHP   2. do_action() C:\OSPanel\domains\dream-loft.local\wp-includes\load.php:679
+[25-Apr-2018 15:34:47 UTC] PHP   3. WP_Hook->do_action() C:\OSPanel\domains\dream-loft.local\wp-includes\plugin.php:453
+[25-Apr-2018 15:34:47 UTC] PHP   4. WP_Hook->apply_filters() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:310
+[25-Apr-2018 15:34:47 UTC] PHP   5. call_user_func_array:{C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286}() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286
+[25-Apr-2018 15:34:47 UTC] PHP   6. wp_ob_end_flush_all() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286
+[25-Apr-2018 15:34:47 UTC] PHP   7. ob_end_flush() C:\OSPanel\domains\dream-loft.local\wp-includes\functions.php:3729
+[25-Apr-2018 15:34:47 UTC] PHP   8. TRP_Translation_Render->translate_page() C:\OSPanel\domains\dream-loft.local\wp-includes\functions.php:3729
+[25-Apr-2018 15:34:47 UTC] PHP Notice:  Undefined index: Контакты in C:\OSPanel\domains\dream-loft.local\wp-content\plugins\translatepress-multilingual\includes\class-translation-render.php on line 538
+[25-Apr-2018 15:34:47 UTC] PHP Stack trace:
+[25-Apr-2018 15:34:47 UTC] PHP   1. shutdown_action_hook() C:\OSPanel\domains\dream-loft.local\wp-includes\load.php:0
+[25-Apr-2018 15:34:47 UTC] PHP   2. do_action() C:\OSPanel\domains\dream-loft.local\wp-includes\load.php:679
+[25-Apr-2018 15:34:47 UTC] PHP   3. WP_Hook->do_action() C:\OSPanel\domains\dream-loft.local\wp-includes\plugin.php:453
+[25-Apr-2018 15:34:47 UTC] PHP   4. WP_Hook->apply_filters() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:310
+[25-Apr-2018 15:34:47 UTC] PHP   5. call_user_func_array:{C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286}() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286
+[25-Apr-2018 15:34:47 UTC] PHP   6. wp_ob_end_flush_all() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286
+[25-Apr-2018 15:34:47 UTC] PHP   7. ob_end_flush() C:\OSPanel\domains\dream-loft.local\wp-includes\functions.php:3729
+[25-Apr-2018 15:34:47 UTC] PHP   8. TRP_Translation_Render->translate_page() C:\OSPanel\domains\dream-loft.local\wp-includes\functions.php:3729
+[25-Apr-2018 15:34:47 UTC] PHP Notice:  Trying to get property of non-object in C:\OSPanel\domains\dream-loft.local\wp-content\plugins\translatepress-multilingual\includes\class-translation-render.php on line 538
+[25-Apr-2018 15:34:47 UTC] PHP Stack trace:
+[25-Apr-2018 15:34:47 UTC] PHP   1. shutdown_action_hook() C:\OSPanel\domains\dream-loft.local\wp-includes\load.php:0
+[25-Apr-2018 15:34:47 UTC] PHP   2. do_action() C:\OSPanel\domains\dream-loft.local\wp-includes\load.php:679
+[25-Apr-2018 15:34:47 UTC] PHP   3. WP_Hook->do_action() C:\OSPanel\domains\dream-loft.local\wp-includes\plugin.php:453
+[25-Apr-2018 15:34:47 UTC] PHP   4. WP_Hook->apply_filters() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:310
+[25-Apr-2018 15:34:47 UTC] PHP   5. call_user_func_array:{C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286}() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286
+[25-Apr-2018 15:34:47 UTC] PHP   6. wp_ob_end_flush_all() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286
+[25-Apr-2018 15:34:47 UTC] PHP   7. ob_end_flush() C:\OSPanel\domains\dream-loft.local\wp-includes\functions.php:3729
+[25-Apr-2018 15:34:47 UTC] PHP   8. TRP_Translation_Render->translate_page() C:\OSPanel\domains\dream-loft.local\wp-includes\functions.php:3729
+[25-Apr-2018 15:34:47 UTC] PHP Notice:  Undefined index: тел.: in C:\OSPanel\domains\dream-loft.local\wp-content\plugins\translatepress-multilingual\includes\class-translation-render.php on line 538
+[25-Apr-2018 15:34:47 UTC] PHP Stack trace:
+[25-Apr-2018 15:34:47 UTC] PHP   1. shutdown_action_hook() C:\OSPanel\domains\dream-loft.local\wp-includes\load.php:0
+[25-Apr-2018 15:34:47 UTC] PHP   2. do_action() C:\OSPanel\domains\dream-loft.local\wp-includes\load.php:679
+[25-Apr-2018 15:34:47 UTC] PHP   3. WP_Hook->do_action() C:\OSPanel\domains\dream-loft.local\wp-includes\plugin.php:453
+[25-Apr-2018 15:34:47 UTC] PHP   4. WP_Hook->apply_filters() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:310
+[25-Apr-2018 15:34:47 UTC] PHP   5. call_user_func_array:{C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286}() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286
+[25-Apr-2018 15:34:47 UTC] PHP   6. wp_ob_end_flush_all() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286
+[25-Apr-2018 15:34:47 UTC] PHP   7. ob_end_flush() C:\OSPanel\domains\dream-loft.local\wp-includes\functions.php:3729
+[25-Apr-2018 15:34:47 UTC] PHP   8. TRP_Translation_Render->translate_page() C:\OSPanel\domains\dream-loft.local\wp-includes\functions.php:3729
+[25-Apr-2018 15:34:47 UTC] PHP Notice:  Trying to get property of non-object in C:\OSPanel\domains\dream-loft.local\wp-content\plugins\translatepress-multilingual\includes\class-translation-render.php on line 538
+[25-Apr-2018 15:34:47 UTC] PHP Stack trace:
+[25-Apr-2018 15:34:47 UTC] PHP   1. shutdown_action_hook() C:\OSPanel\domains\dream-loft.local\wp-includes\load.php:0
+[25-Apr-2018 15:34:47 UTC] PHP   2. do_action() C:\OSPanel\domains\dream-loft.local\wp-includes\load.php:679
+[25-Apr-2018 15:34:47 UTC] PHP   3. WP_Hook->do_action() C:\OSPanel\domains\dream-loft.local\wp-includes\plugin.php:453
+[25-Apr-2018 15:34:47 UTC] PHP   4. WP_Hook->apply_filters() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:310
+[25-Apr-2018 15:34:47 UTC] PHP   5. call_user_func_array:{C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286}() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286
+[25-Apr-2018 15:34:47 UTC] PHP   6. wp_ob_end_flush_all() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286
+[25-Apr-2018 15:34:47 UTC] PHP   7. ob_end_flush() C:\OSPanel\domains\dream-loft.local\wp-includes\functions.php:3729
+[25-Apr-2018 15:34:47 UTC] PHP   8. TRP_Translation_Render->translate_page() C:\OSPanel\domains\dream-loft.local\wp-includes\functions.php:3729
+[25-Apr-2018 15:34:47 UTC] PHP Notice:  Undefined index: Contacts in C:\OSPanel\domains\dream-loft.local\wp-content\plugins\translatepress-multilingual\includes\class-translation-render.php on line 538
+[25-Apr-2018 15:34:47 UTC] PHP Stack trace:
+[25-Apr-2018 15:34:47 UTC] PHP   1. shutdown_action_hook() C:\OSPanel\domains\dream-loft.local\wp-includes\load.php:0
+[25-Apr-2018 15:34:47 UTC] PHP   2. do_action() C:\OSPanel\domains\dream-loft.local\wp-includes\load.php:679
+[25-Apr-2018 15:34:47 UTC] PHP   3. WP_Hook->do_action() C:\OSPanel\domains\dream-loft.local\wp-includes\plugin.php:453
+[25-Apr-2018 15:34:47 UTC] PHP   4. WP_Hook->apply_filters() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:310
+[25-Apr-2018 15:34:47 UTC] PHP   5. call_user_func_array:{C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286}() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286
+[25-Apr-2018 15:34:47 UTC] PHP   6. wp_ob_end_flush_all() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286
+[25-Apr-2018 15:34:47 UTC] PHP   7. ob_end_flush() C:\OSPanel\domains\dream-loft.local\wp-includes\functions.php:3729
+[25-Apr-2018 15:34:47 UTC] PHP   8. TRP_Translation_Render->translate_page() C:\OSPanel\domains\dream-loft.local\wp-includes\functions.php:3729
+[25-Apr-2018 15:34:47 UTC] PHP Notice:  Trying to get property of non-object in C:\OSPanel\domains\dream-loft.local\wp-content\plugins\translatepress-multilingual\includes\class-translation-render.php on line 538
+[25-Apr-2018 15:34:47 UTC] PHP Stack trace:
+[25-Apr-2018 15:34:47 UTC] PHP   1. shutdown_action_hook() C:\OSPanel\domains\dream-loft.local\wp-includes\load.php:0
+[25-Apr-2018 15:34:47 UTC] PHP   2. do_action() C:\OSPanel\domains\dream-loft.local\wp-includes\load.php:679
+[25-Apr-2018 15:34:47 UTC] PHP   3. WP_Hook->do_action() C:\OSPanel\domains\dream-loft.local\wp-includes\plugin.php:453
+[25-Apr-2018 15:34:47 UTC] PHP   4. WP_Hook->apply_filters() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:310
+[25-Apr-2018 15:34:47 UTC] PHP   5. call_user_func_array:{C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286}() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286
+[25-Apr-2018 15:34:47 UTC] PHP   6. wp_ob_end_flush_all() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286
+[25-Apr-2018 15:34:47 UTC] PHP   7. ob_end_flush() C:\OSPanel\domains\dream-loft.local\wp-includes\functions.php:3729
+[25-Apr-2018 15:34:47 UTC] PHP   8. TRP_Translation_Render->translate_page() C:\OSPanel\domains\dream-loft.local\wp-includes\functions.php:3729
+[25-Apr-2018 15:34:48 UTC] PHP Notice:  Undefined index: Контакты in C:\OSPanel\domains\dream-loft.local\wp-content\plugins\translatepress-multilingual\includes\class-translation-render.php on line 538
+[25-Apr-2018 15:34:48 UTC] PHP Stack trace:
+[25-Apr-2018 15:34:48 UTC] PHP   1. shutdown_action_hook() C:\OSPanel\domains\dream-loft.local\wp-includes\load.php:0
+[25-Apr-2018 15:34:48 UTC] PHP   2. do_action() C:\OSPanel\domains\dream-loft.local\wp-includes\load.php:679
+[25-Apr-2018 15:34:48 UTC] PHP   3. WP_Hook->do_action() C:\OSPanel\domains\dream-loft.local\wp-includes\plugin.php:453
+[25-Apr-2018 15:34:48 UTC] PHP   4. WP_Hook->apply_filters() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:310
+[25-Apr-2018 15:34:48 UTC] PHP   5. call_user_func_array:{C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286}() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286
+[25-Apr-2018 15:34:48 UTC] PHP   6. wp_ob_end_flush_all() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286
+[25-Apr-2018 15:34:48 UTC] PHP   7. ob_end_flush() C:\OSPanel\domains\dream-loft.local\wp-includes\functions.php:3729
+[25-Apr-2018 15:34:48 UTC] PHP   8. TRP_Translation_Render->translate_page() C:\OSPanel\domains\dream-loft.local\wp-includes\functions.php:3729
+[25-Apr-2018 15:34:48 UTC] PHP Notice:  Trying to get property of non-object in C:\OSPanel\domains\dream-loft.local\wp-content\plugins\translatepress-multilingual\includes\class-translation-render.php on line 538
+[25-Apr-2018 15:34:48 UTC] PHP Stack trace:
+[25-Apr-2018 15:34:48 UTC] PHP   1. shutdown_action_hook() C:\OSPanel\domains\dream-loft.local\wp-includes\load.php:0
+[25-Apr-2018 15:34:48 UTC] PHP   2. do_action() C:\OSPanel\domains\dream-loft.local\wp-includes\load.php:679
+[25-Apr-2018 15:34:48 UTC] PHP   3. WP_Hook->do_action() C:\OSPanel\domains\dream-loft.local\wp-includes\plugin.php:453
+[25-Apr-2018 15:34:48 UTC] PHP   4. WP_Hook->apply_filters() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:310
+[25-Apr-2018 15:34:48 UTC] PHP   5. call_user_func_array:{C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286}() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286
+[25-Apr-2018 15:34:48 UTC] PHP   6. wp_ob_end_flush_all() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286
+[25-Apr-2018 15:34:48 UTC] PHP   7. ob_end_flush() C:\OSPanel\domains\dream-loft.local\wp-includes\functions.php:3729
+[25-Apr-2018 15:34:48 UTC] PHP   8. TRP_Translation_Render->translate_page() C:\OSPanel\domains\dream-loft.local\wp-includes\functions.php:3729
+[25-Apr-2018 15:34:48 UTC] PHP Notice:  Undefined index: Электромонтажные работы in C:\OSPanel\domains\dream-loft.local\wp-content\plugins\translatepress-multilingual\includes\class-translation-render.php on line 538
+[25-Apr-2018 15:34:48 UTC] PHP Stack trace:
+[25-Apr-2018 15:34:48 UTC] PHP   1. shutdown_action_hook() C:\OSPanel\domains\dream-loft.local\wp-includes\load.php:0
+[25-Apr-2018 15:34:48 UTC] PHP   2. do_action() C:\OSPanel\domains\dream-loft.local\wp-includes\load.php:679
+[25-Apr-2018 15:34:48 UTC] PHP   3. WP_Hook->do_action() C:\OSPanel\domains\dream-loft.local\wp-includes\plugin.php:453
+[25-Apr-2018 15:34:48 UTC] PHP   4. WP_Hook->apply_filters() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:310
+[25-Apr-2018 15:34:48 UTC] PHP   5. call_user_func_array:{C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286}() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286
+[25-Apr-2018 15:34:48 UTC] PHP   6. wp_ob_end_flush_all() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286
+[25-Apr-2018 15:34:48 UTC] PHP   7. ob_end_flush() C:\OSPanel\domains\dream-loft.local\wp-includes\functions.php:3729
+[25-Apr-2018 15:34:48 UTC] PHP   8. TRP_Translation_Render->translate_page() C:\OSPanel\domains\dream-loft.local\wp-includes\functions.php:3729
+[25-Apr-2018 15:34:48 UTC] PHP Notice:  Trying to get property of non-object in C:\OSPanel\domains\dream-loft.local\wp-content\plugins\translatepress-multilingual\includes\class-translation-render.php on line 538
+[25-Apr-2018 15:34:48 UTC] PHP Stack trace:
+[25-Apr-2018 15:34:48 UTC] PHP   1. shutdown_action_hook() C:\OSPanel\domains\dream-loft.local\wp-includes\load.php:0
+[25-Apr-2018 15:34:48 UTC] PHP   2. do_action() C:\OSPanel\domains\dream-loft.local\wp-includes\load.php:679
+[25-Apr-2018 15:34:48 UTC] PHP   3. WP_Hook->do_action() C:\OSPanel\domains\dream-loft.local\wp-includes\plugin.php:453
+[25-Apr-2018 15:34:48 UTC] PHP   4. WP_Hook->apply_filters() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:310
+[25-Apr-2018 15:34:48 UTC] PHP   5. call_user_func_array:{C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286}() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286
+[25-Apr-2018 15:34:48 UTC] PHP   6. wp_ob_end_flush_all() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286
+[25-Apr-2018 15:34:48 UTC] PHP   7. ob_end_flush() C:\OSPanel\domains\dream-loft.local\wp-includes\functions.php:3729
+[25-Apr-2018 15:34:48 UTC] PHP   8. TRP_Translation_Render->translate_page() C:\OSPanel\domains\dream-loft.local\wp-includes\functions.php:3729
+[25-Apr-2018 15:34:48 UTC] PHP Notice:  Undefined index: строительно-монтажные работы in C:\OSPanel\domains\dream-loft.local\wp-content\plugins\translatepress-multilingual\includes\class-translation-render.php on line 538
+[25-Apr-2018 15:34:48 UTC] PHP Stack trace:
+[25-Apr-2018 15:34:48 UTC] PHP   1. shutdown_action_hook() C:\OSPanel\domains\dream-loft.local\wp-includes\load.php:0
+[25-Apr-2018 15:34:48 UTC] PHP   2. do_action() C:\OSPanel\domains\dream-loft.local\wp-includes\load.php:679
+[25-Apr-2018 15:34:48 UTC] PHP   3. WP_Hook->do_action() C:\OSPanel\domains\dream-loft.local\wp-includes\plugin.php:453
+[25-Apr-2018 15:34:48 UTC] PHP   4. WP_Hook->apply_filters() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:310
+[25-Apr-2018 15:34:48 UTC] PHP   5. call_user_func_array:{C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286}() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286
+[25-Apr-2018 15:34:48 UTC] PHP   6. wp_ob_end_flush_all() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286
+[25-Apr-2018 15:34:48 UTC] PHP   7. ob_end_flush() C:\OSPanel\domains\dream-loft.local\wp-includes\functions.php:3729
+[25-Apr-2018 15:34:48 UTC] PHP   8. TRP_Translation_Render->translate_page() C:\OSPanel\domains\dream-loft.local\wp-includes\functions.php:3729
+[25-Apr-2018 15:34:48 UTC] PHP Notice:  Trying to get property of non-object in C:\OSPanel\domains\dream-loft.local\wp-content\plugins\translatepress-multilingual\includes\class-translation-render.php on line 538
+[25-Apr-2018 15:34:48 UTC] PHP Stack trace:
+[25-Apr-2018 15:34:48 UTC] PHP   1. shutdown_action_hook() C:\OSPanel\domains\dream-loft.local\wp-includes\load.php:0
+[25-Apr-2018 15:34:48 UTC] PHP   2. do_action() C:\OSPanel\domains\dream-loft.local\wp-includes\load.php:679
+[25-Apr-2018 15:34:48 UTC] PHP   3. WP_Hook->do_action() C:\OSPanel\domains\dream-loft.local\wp-includes\plugin.php:453
+[25-Apr-2018 15:34:48 UTC] PHP   4. WP_Hook->apply_filters() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:310
+[25-Apr-2018 15:34:48 UTC] PHP   5. call_user_func_array:{C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286}() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286
+[25-Apr-2018 15:34:48 UTC] PHP   6. wp_ob_end_flush_all() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286
+[25-Apr-2018 15:34:48 UTC] PHP   7. ob_end_flush() C:\OSPanel\domains\dream-loft.local\wp-includes\functions.php:3729
+[25-Apr-2018 15:34:48 UTC] PHP   8. TRP_Translation_Render->translate_page() C:\OSPanel\domains\dream-loft.local\wp-includes\functions.php:3729
+[25-Apr-2018 15:34:48 UTC] PHP Notice:  Undefined index: Расчистка от дкр in C:\OSPanel\domains\dream-loft.local\wp-content\plugins\translatepress-multilingual\includes\class-translation-render.php on line 538
+[25-Apr-2018 15:34:48 UTC] PHP Stack trace:
+[25-Apr-2018 15:34:48 UTC] PHP   1. shutdown_action_hook() C:\OSPanel\domains\dream-loft.local\wp-includes\load.php:0
+[25-Apr-2018 15:34:48 UTC] PHP   2. do_action() C:\OSPanel\domains\dream-loft.local\wp-includes\load.php:679
+[25-Apr-2018 15:34:48 UTC] PHP   3. WP_Hook->do_action() C:\OSPanel\domains\dream-loft.local\wp-includes\plugin.php:453
+[25-Apr-2018 15:34:48 UTC] PHP   4. WP_Hook->apply_filters() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:310
+[25-Apr-2018 15:34:48 UTC] PHP   5. call_user_func_array:{C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286}() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286
+[25-Apr-2018 15:34:48 UTC] PHP   6. wp_ob_end_flush_all() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286
+[25-Apr-2018 15:34:48 UTC] PHP   7. ob_end_flush() C:\OSPanel\domains\dream-loft.local\wp-includes\functions.php:3729
+[25-Apr-2018 15:34:48 UTC] PHP   8. TRP_Translation_Render->translate_page() C:\OSPanel\domains\dream-loft.local\wp-includes\functions.php:3729
+[25-Apr-2018 15:34:48 UTC] PHP Notice:  Trying to get property of non-object in C:\OSPanel\domains\dream-loft.local\wp-content\plugins\translatepress-multilingual\includes\class-translation-render.php on line 538
+[25-Apr-2018 15:34:48 UTC] PHP Stack trace:
+[25-Apr-2018 15:34:48 UTC] PHP   1. shutdown_action_hook() C:\OSPanel\domains\dream-loft.local\wp-includes\load.php:0
+[25-Apr-2018 15:34:48 UTC] PHP   2. do_action() C:\OSPanel\domains\dream-loft.local\wp-includes\load.php:679
+[25-Apr-2018 15:34:48 UTC] PHP   3. WP_Hook->do_action() C:\OSPanel\domains\dream-loft.local\wp-includes\plugin.php:453
+[25-Apr-2018 15:34:48 UTC] PHP   4. WP_Hook->apply_filters() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:310
+[25-Apr-2018 15:34:48 UTC] PHP   5. call_user_func_array:{C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286}() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286
+[25-Apr-2018 15:34:48 UTC] PHP   6. wp_ob_end_flush_all() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286
+[25-Apr-2018 15:34:48 UTC] PHP   7. ob_end_flush() C:\OSPanel\domains\dream-loft.local\wp-includes\functions.php:3729
+[25-Apr-2018 15:34:48 UTC] PHP   8. TRP_Translation_Render->translate_page() C:\OSPanel\domains\dream-loft.local\wp-includes\functions.php:3729
+[25-Apr-2018 15:34:48 UTC] PHP Notice:  Undefined index: Благоустройство и дорожные работы in C:\OSPanel\domains\dream-loft.local\wp-content\plugins\translatepress-multilingual\includes\class-translation-render.php on line 538
+[25-Apr-2018 15:34:48 UTC] PHP Stack trace:
+[25-Apr-2018 15:34:48 UTC] PHP   1. shutdown_action_hook() C:\OSPanel\domains\dream-loft.local\wp-includes\load.php:0
+[25-Apr-2018 15:34:48 UTC] PHP   2. do_action() C:\OSPanel\domains\dream-loft.local\wp-includes\load.php:679
+[25-Apr-2018 15:34:48 UTC] PHP   3. WP_Hook->do_action() C:\OSPanel\domains\dream-loft.local\wp-includes\plugin.php:453
+[25-Apr-2018 15:34:48 UTC] PHP   4. WP_Hook->apply_filters() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:310
+[25-Apr-2018 15:34:48 UTC] PHP   5. call_user_func_array:{C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286}() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286
+[25-Apr-2018 15:34:48 UTC] PHP   6. wp_ob_end_flush_all() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286
+[25-Apr-2018 15:34:48 UTC] PHP   7. ob_end_flush() C:\OSPanel\domains\dream-loft.local\wp-includes\functions.php:3729
+[25-Apr-2018 15:34:48 UTC] PHP   8. TRP_Translation_Render->translate_page() C:\OSPanel\domains\dream-loft.local\wp-includes\functions.php:3729
+[25-Apr-2018 15:34:48 UTC] PHP Notice:  Trying to get property of non-object in C:\OSPanel\domains\dream-loft.local\wp-content\plugins\translatepress-multilingual\includes\class-translation-render.php on line 538
+[25-Apr-2018 15:34:48 UTC] PHP Stack trace:
+[25-Apr-2018 15:34:48 UTC] PHP   1. shutdown_action_hook() C:\OSPanel\domains\dream-loft.local\wp-includes\load.php:0
+[25-Apr-2018 15:34:48 UTC] PHP   2. do_action() C:\OSPanel\domains\dream-loft.local\wp-includes\load.php:679
+[25-Apr-2018 15:34:48 UTC] PHP   3. WP_Hook->do_action() C:\OSPanel\domains\dream-loft.local\wp-includes\plugin.php:453
+[25-Apr-2018 15:34:48 UTC] PHP   4. WP_Hook->apply_filters() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:310
+[25-Apr-2018 15:34:48 UTC] PHP   5. call_user_func_array:{C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286}() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286
+[25-Apr-2018 15:34:48 UTC] PHP   6. wp_ob_end_flush_all() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286
+[25-Apr-2018 15:34:48 UTC] PHP   7. ob_end_flush() C:\OSPanel\domains\dream-loft.local\wp-includes\functions.php:3729
+[25-Apr-2018 15:34:48 UTC] PHP   8. TRP_Translation_Render->translate_page() C:\OSPanel\domains\dream-loft.local\wp-includes\functions.php:3729
+[25-Apr-2018 15:34:48 UTC] PHP Notice:  Undefined index: Проектирование in C:\OSPanel\domains\dream-loft.local\wp-content\plugins\translatepress-multilingual\includes\class-translation-render.php on line 538
+[25-Apr-2018 15:34:48 UTC] PHP Stack trace:
+[25-Apr-2018 15:34:48 UTC] PHP   1. shutdown_action_hook() C:\OSPanel\domains\dream-loft.local\wp-includes\load.php:0
+[25-Apr-2018 15:34:48 UTC] PHP   2. do_action() C:\OSPanel\domains\dream-loft.local\wp-includes\load.php:679
+[25-Apr-2018 15:34:48 UTC] PHP   3. WP_Hook->do_action() C:\OSPanel\domains\dream-loft.local\wp-includes\plugin.php:453
+[25-Apr-2018 15:34:48 UTC] PHP   4. WP_Hook->apply_filters() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:310
+[25-Apr-2018 15:34:48 UTC] PHP   5. call_user_func_array:{C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286}() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286
+[25-Apr-2018 15:34:48 UTC] PHP   6. wp_ob_end_flush_all() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286
+[25-Apr-2018 15:34:48 UTC] PHP   7. ob_end_flush() C:\OSPanel\domains\dream-loft.local\wp-includes\functions.php:3729
+[25-Apr-2018 15:34:48 UTC] PHP   8. TRP_Translation_Render->translate_page() C:\OSPanel\domains\dream-loft.local\wp-includes\functions.php:3729
+[25-Apr-2018 15:34:48 UTC] PHP Notice:  Trying to get property of non-object in C:\OSPanel\domains\dream-loft.local\wp-content\plugins\translatepress-multilingual\includes\class-translation-render.php on line 538
+[25-Apr-2018 15:34:48 UTC] PHP Stack trace:
+[25-Apr-2018 15:34:48 UTC] PHP   1. shutdown_action_hook() C:\OSPanel\domains\dream-loft.local\wp-includes\load.php:0
+[25-Apr-2018 15:34:48 UTC] PHP   2. do_action() C:\OSPanel\domains\dream-loft.local\wp-includes\load.php:679
+[25-Apr-2018 15:34:48 UTC] PHP   3. WP_Hook->do_action() C:\OSPanel\domains\dream-loft.local\wp-includes\plugin.php:453
+[25-Apr-2018 15:34:48 UTC] PHP   4. WP_Hook->apply_filters() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:310
+[25-Apr-2018 15:34:48 UTC] PHP   5. call_user_func_array:{C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286}() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286
+[25-Apr-2018 15:34:48 UTC] PHP   6. wp_ob_end_flush_all() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286
+[25-Apr-2018 15:34:48 UTC] PHP   7. ob_end_flush() C:\OSPanel\domains\dream-loft.local\wp-includes\functions.php:3729
+[25-Apr-2018 15:34:48 UTC] PHP   8. TRP_Translation_Render->translate_page() C:\OSPanel\domains\dream-loft.local\wp-includes\functions.php:3729
+[25-Apr-2018 15:34:48 UTC] PHP Notice:  Undefined index: обследование зданий и сооружений in C:\OSPanel\domains\dream-loft.local\wp-content\plugins\translatepress-multilingual\includes\class-translation-render.php on line 538
+[25-Apr-2018 15:34:48 UTC] PHP Stack trace:
+[25-Apr-2018 15:34:48 UTC] PHP   1. shutdown_action_hook() C:\OSPanel\domains\dream-loft.local\wp-includes\load.php:0
+[25-Apr-2018 15:34:48 UTC] PHP   2. do_action() C:\OSPanel\domains\dream-loft.local\wp-includes\load.php:679
+[25-Apr-2018 15:34:48 UTC] PHP   3. WP_Hook->do_action() C:\OSPanel\domains\dream-loft.local\wp-includes\plugin.php:453
+[25-Apr-2018 15:34:48 UTC] PHP   4. WP_Hook->apply_filters() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:310
+[25-Apr-2018 15:34:48 UTC] PHP   5. call_user_func_array:{C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286}() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286
+[25-Apr-2018 15:34:48 UTC] PHP   6. wp_ob_end_flush_all() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286
+[25-Apr-2018 15:34:48 UTC] PHP   7. ob_end_flush() C:\OSPanel\domains\dream-loft.local\wp-includes\functions.php:3729
+[25-Apr-2018 15:34:48 UTC] PHP   8. TRP_Translation_Render->translate_page() C:\OSPanel\domains\dream-loft.local\wp-includes\functions.php:3729
+[25-Apr-2018 15:34:48 UTC] PHP Notice:  Trying to get property of non-object in C:\OSPanel\domains\dream-loft.local\wp-content\plugins\translatepress-multilingual\includes\class-translation-render.php on line 538
+[25-Apr-2018 15:34:48 UTC] PHP Stack trace:
+[25-Apr-2018 15:34:48 UTC] PHP   1. shutdown_action_hook() C:\OSPanel\domains\dream-loft.local\wp-includes\load.php:0
+[25-Apr-2018 15:34:48 UTC] PHP   2. do_action() C:\OSPanel\domains\dream-loft.local\wp-includes\load.php:679
+[25-Apr-2018 15:34:48 UTC] PHP   3. WP_Hook->do_action() C:\OSPanel\domains\dream-loft.local\wp-includes\plugin.php:453
+[25-Apr-2018 15:34:48 UTC] PHP   4. WP_Hook->apply_filters() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:310
+[25-Apr-2018 15:34:48 UTC] PHP   5. call_user_func_array:{C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286}() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286
+[25-Apr-2018 15:34:48 UTC] PHP   6. wp_ob_end_flush_all() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286
+[25-Apr-2018 15:34:48 UTC] PHP   7. ob_end_flush() C:\OSPanel\domains\dream-loft.local\wp-includes\functions.php:3729
+[25-Apr-2018 15:34:48 UTC] PHP   8. TRP_Translation_Render->translate_page() C:\OSPanel\domains\dream-loft.local\wp-includes\functions.php:3729
+[25-Apr-2018 15:34:48 UTC] PHP Notice:  Undefined index: 2018 © ООО “AВК-Строй” in C:\OSPanel\domains\dream-loft.local\wp-content\plugins\translatepress-multilingual\includes\class-translation-render.php on line 538
+[25-Apr-2018 15:34:48 UTC] PHP Stack trace:
+[25-Apr-2018 15:34:48 UTC] PHP   1. shutdown_action_hook() C:\OSPanel\domains\dream-loft.local\wp-includes\load.php:0
+[25-Apr-2018 15:34:48 UTC] PHP   2. do_action() C:\OSPanel\domains\dream-loft.local\wp-includes\load.php:679
+[25-Apr-2018 15:34:48 UTC] PHP   3. WP_Hook->do_action() C:\OSPanel\domains\dream-loft.local\wp-includes\plugin.php:453
+[25-Apr-2018 15:34:48 UTC] PHP   4. WP_Hook->apply_filters() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:310
+[25-Apr-2018 15:34:48 UTC] PHP   5. call_user_func_array:{C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286}() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286
+[25-Apr-2018 15:34:48 UTC] PHP   6. wp_ob_end_flush_all() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286
+[25-Apr-2018 15:34:48 UTC] PHP   7. ob_end_flush() C:\OSPanel\domains\dream-loft.local\wp-includes\functions.php:3729
+[25-Apr-2018 15:34:48 UTC] PHP   8. TRP_Translation_Render->translate_page() C:\OSPanel\domains\dream-loft.local\wp-includes\functions.php:3729
+[25-Apr-2018 15:34:48 UTC] PHP Notice:  Trying to get property of non-object in C:\OSPanel\domains\dream-loft.local\wp-content\plugins\translatepress-multilingual\includes\class-translation-render.php on line 538
+[25-Apr-2018 15:34:48 UTC] PHP Stack trace:
+[25-Apr-2018 15:34:48 UTC] PHP   1. shutdown_action_hook() C:\OSPanel\domains\dream-loft.local\wp-includes\load.php:0
+[25-Apr-2018 15:34:48 UTC] PHP   2. do_action() C:\OSPanel\domains\dream-loft.local\wp-includes\load.php:679
+[25-Apr-2018 15:34:48 UTC] PHP   3. WP_Hook->do_action() C:\OSPanel\domains\dream-loft.local\wp-includes\plugin.php:453
+[25-Apr-2018 15:34:48 UTC] PHP   4. WP_Hook->apply_filters() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:310
+[25-Apr-2018 15:34:48 UTC] PHP   5. call_user_func_array:{C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286}() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286
+[25-Apr-2018 15:34:48 UTC] PHP   6. wp_ob_end_flush_all() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286
+[25-Apr-2018 15:34:48 UTC] PHP   7. ob_end_flush() C:\OSPanel\domains\dream-loft.local\wp-includes\functions.php:3729
+[25-Apr-2018 15:34:48 UTC] PHP   8. TRP_Translation_Render->translate_page() C:\OSPanel\domains\dream-loft.local\wp-includes\functions.php:3729
+[25-Apr-2018 15:34:48 UTC] PHP Notice:  Undefined index: ИНН: 7811523780, ОГРН: 1127847312163 193091, in C:\OSPanel\domains\dream-loft.local\wp-content\plugins\translatepress-multilingual\includes\class-translation-render.php on line 538
+[25-Apr-2018 15:34:48 UTC] PHP Stack trace:
+[25-Apr-2018 15:34:48 UTC] PHP   1. shutdown_action_hook() C:\OSPanel\domains\dream-loft.local\wp-includes\load.php:0
+[25-Apr-2018 15:34:48 UTC] PHP   2. do_action() C:\OSPanel\domains\dream-loft.local\wp-includes\load.php:679
+[25-Apr-2018 15:34:48 UTC] PHP   3. WP_Hook->do_action() C:\OSPanel\domains\dream-loft.local\wp-includes\plugin.php:453
+[25-Apr-2018 15:34:48 UTC] PHP   4. WP_Hook->apply_filters() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:310
+[25-Apr-2018 15:34:48 UTC] PHP   5. call_user_func_array:{C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286}() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286
+[25-Apr-2018 15:34:48 UTC] PHP   6. wp_ob_end_flush_all() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286
+[25-Apr-2018 15:34:48 UTC] PHP   7. ob_end_flush() C:\OSPanel\domains\dream-loft.local\wp-includes\functions.php:3729
+[25-Apr-2018 15:34:48 UTC] PHP   8. TRP_Translation_Render->translate_page() C:\OSPanel\domains\dream-loft.local\wp-includes\functions.php:3729
+[25-Apr-2018 15:34:48 UTC] PHP Notice:  Trying to get property of non-object in C:\OSPanel\domains\dream-loft.local\wp-content\plugins\translatepress-multilingual\includes\class-translation-render.php on line 538
+[25-Apr-2018 15:34:48 UTC] PHP Stack trace:
+[25-Apr-2018 15:34:48 UTC] PHP   1. shutdown_action_hook() C:\OSPanel\domains\dream-loft.local\wp-includes\load.php:0
+[25-Apr-2018 15:34:48 UTC] PHP   2. do_action() C:\OSPanel\domains\dream-loft.local\wp-includes\load.php:679
+[25-Apr-2018 15:34:48 UTC] PHP   3. WP_Hook->do_action() C:\OSPanel\domains\dream-loft.local\wp-includes\plugin.php:453
+[25-Apr-2018 15:34:48 UTC] PHP   4. WP_Hook->apply_filters() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:310
+[25-Apr-2018 15:34:48 UTC] PHP   5. call_user_func_array:{C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286}() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286
+[25-Apr-2018 15:34:48 UTC] PHP   6. wp_ob_end_flush_all() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286
+[25-Apr-2018 15:34:48 UTC] PHP   7. ob_end_flush() C:\OSPanel\domains\dream-loft.local\wp-includes\functions.php:3729
+[25-Apr-2018 15:34:48 UTC] PHP   8. TRP_Translation_Render->translate_page() C:\OSPanel\domains\dream-loft.local\wp-includes\functions.php:3729
+[25-Apr-2018 15:34:48 UTC] PHP Notice:  Undefined index: город Санкт-петербург, Октябрьская набережная,
+дом 6, литер В, помещение 11-Н in C:\OSPanel\domains\dream-loft.local\wp-content\plugins\translatepress-multilingual\includes\class-translation-render.php on line 538
+[25-Apr-2018 15:34:48 UTC] PHP Stack trace:
+[25-Apr-2018 15:34:49 UTC] PHP   1. shutdown_action_hook() C:\OSPanel\domains\dream-loft.local\wp-includes\load.php:0
+[25-Apr-2018 15:34:49 UTC] PHP   2. do_action() C:\OSPanel\domains\dream-loft.local\wp-includes\load.php:679
+[25-Apr-2018 15:34:49 UTC] PHP   3. WP_Hook->do_action() C:\OSPanel\domains\dream-loft.local\wp-includes\plugin.php:453
+[25-Apr-2018 15:34:49 UTC] PHP   4. WP_Hook->apply_filters() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:310
+[25-Apr-2018 15:34:49 UTC] PHP   5. call_user_func_array:{C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286}() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286
+[25-Apr-2018 15:34:49 UTC] PHP   6. wp_ob_end_flush_all() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286
+[25-Apr-2018 15:34:49 UTC] PHP   7. ob_end_flush() C:\OSPanel\domains\dream-loft.local\wp-includes\functions.php:3729
+[25-Apr-2018 15:34:49 UTC] PHP   8. TRP_Translation_Render->translate_page() C:\OSPanel\domains\dream-loft.local\wp-includes\functions.php:3729
+[25-Apr-2018 15:34:49 UTC] PHP Notice:  Trying to get property of non-object in C:\OSPanel\domains\dream-loft.local\wp-content\plugins\translatepress-multilingual\includes\class-translation-render.php on line 538
+[25-Apr-2018 15:34:49 UTC] PHP Stack trace:
+[25-Apr-2018 15:34:49 UTC] PHP   1. shutdown_action_hook() C:\OSPanel\domains\dream-loft.local\wp-includes\load.php:0
+[25-Apr-2018 15:34:49 UTC] PHP   2. do_action() C:\OSPanel\domains\dream-loft.local\wp-includes\load.php:679
+[25-Apr-2018 15:34:49 UTC] PHP   3. WP_Hook->do_action() C:\OSPanel\domains\dream-loft.local\wp-includes\plugin.php:453
+[25-Apr-2018 15:34:49 UTC] PHP   4. WP_Hook->apply_filters() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:310
+[25-Apr-2018 15:34:49 UTC] PHP   5. call_user_func_array:{C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286}() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286
+[25-Apr-2018 15:34:49 UTC] PHP   6. wp_ob_end_flush_all() C:\OSPanel\domains\dream-loft.local\wp-includes\class-wp-hook.php:286
+[25-Apr-2018 15:34:49 UTC] PHP   7. ob_end_flush() C:\OSPanel\domains\dream-loft.local\wp-includes\functions.php:3729
+[25-Apr-2018 15:34:49 UTC] PHP   8. TRP_Translation_Render->translate_page() C:\OSPanel\domains\dream-loft.local\wp-includes\functions.php:3729
+[25-Apr-2018 18:40:04 UTC] PHP Notice:  Trying to get property of non-object in C:\OSPanel\domains\dream-loft.local\wp-content\themes\dream-loft\sidebar.php on line 23
+[25-Apr-2018 18:40:04 UTC] PHP Stack trace:
+[25-Apr-2018 18:40:04 UTC] PHP   1. {main}() C:\OSPanel\domains\dream-loft.local\index.php:0
+[25-Apr-2018 18:40:04 UTC] PHP   2. require() C:\OSPanel\domains\dream-loft.local\index.php:17
+[25-Apr-2018 18:40:04 UTC] PHP   3. require_once() C:\OSPanel\domains\dream-loft.local\wp-blog-header.php:19
+[25-Apr-2018 18:40:04 UTC] PHP   4. include() C:\OSPanel\domains\dream-loft.local\wp-includes\template-loader.php:74
+[25-Apr-2018 18:40:04 UTC] PHP   5. get_sidebar() C:\OSPanel\domains\dream-loft.local\wp-content\themes\dream-loft\404.php:29
+[25-Apr-2018 18:40:04 UTC] PHP   6. locate_template() C:\OSPanel\domains\dream-loft.local\wp-includes\general-template.php:110
+[25-Apr-2018 18:40:04 UTC] PHP   7. load_template() C:\OSPanel\domains\dream-loft.local\wp-includes\template.php:647
+[25-Apr-2018 18:40:04 UTC] PHP   8. require_once() C:\OSPanel\domains\dream-loft.local\wp-includes\template.php:688
+[25-Apr-2018 18:40:05 UTC] PHP Notice:  Trying to get property of non-object in C:\OSPanel\domains\dream-loft.local\wp-content\themes\dream-loft\sidebar.php on line 23
+[25-Apr-2018 18:40:05 UTC] PHP Stack trace:
+[25-Apr-2018 18:40:05 UTC] PHP   1. {main}() C:\OSPanel\domains\dream-loft.local\index.php:0
+[25-Apr-2018 18:40:05 UTC] PHP   2. require() C:\OSPanel\domains\dream-loft.local\index.php:17
+[25-Apr-2018 18:40:05 UTC] PHP   3. require_once() C:\OSPanel\domains\dream-loft.local\wp-blog-header.php:19
+[25-Apr-2018 18:40:05 UTC] PHP   4. include() C:\OSPanel\domains\dream-loft.local\wp-includes\template-loader.php:74
+[25-Apr-2018 18:40:05 UTC] PHP   5. get_sidebar() C:\OSPanel\domains\dream-loft.local\wp-content\themes\dream-loft\404.php:29
+[25-Apr-2018 18:40:05 UTC] PHP   6. locate_template() C:\OSPanel\domains\dream-loft.local\wp-includes\general-template.php:110
+[25-Apr-2018 18:40:05 UTC] PHP   7. load_template() C:\OSPanel\domains\dream-loft.local\wp-includes\template.php:647
+[25-Apr-2018 18:40:05 UTC] PHP   8. require_once() C:\OSPanel\domains\dream-loft.local\wp-includes\template.php:688
+[25-Apr-2018 19:04:23 UTC] PHP Notice:  Trying to get property of non-object in C:\OSPanel\domains\dream-loft.local\wp-content\themes\dream-loft\sidebar.php on line 23
+[25-Apr-2018 19:04:23 UTC] PHP Stack trace:
+[25-Apr-2018 19:04:23 UTC] PHP   1. {main}() C:\OSPanel\domains\dream-loft.local\index.php:0
+[25-Apr-2018 19:04:23 UTC] PHP   2. require() C:\OSPanel\domains\dream-loft.local\index.php:17
+[25-Apr-2018 19:04:23 UTC] PHP   3. require_once() C:\OSPanel\domains\dream-loft.local\wp-blog-header.php:19
+[25-Apr-2018 19:04:23 UTC] PHP   4. include() C:\OSPanel\domains\dream-loft.local\wp-includes\template-loader.php:74
+[25-Apr-2018 19:04:23 UTC] PHP   5. get_sidebar() C:\OSPanel\domains\dream-loft.local\wp-content\themes\dream-loft\404.php:29
+[25-Apr-2018 19:04:23 UTC] PHP   6. locate_template() C:\OSPanel\domains\dream-loft.local\wp-includes\general-template.php:110
+[25-Apr-2018 19:04:23 UTC] PHP   7. load_template() C:\OSPanel\domains\dream-loft.local\wp-includes\template.php:647
+[25-Apr-2018 19:04:23 UTC] PHP   8. require_once() C:\OSPanel\domains\dream-loft.local\wp-includes\template.php:688
+[26-Apr-2018 10:26:03 UTC] PHP Notice:  Trying to get property of non-object in C:\OSPanel\domains\dream-loft.local\wp-content\themes\dream-loft\sidebar.php on line 23
+[26-Apr-2018 10:26:03 UTC] PHP Stack trace:
+[26-Apr-2018 10:26:03 UTC] PHP   1. {main}() C:\OSPanel\domains\dream-loft.local\index.php:0
+[26-Apr-2018 10:26:03 UTC] PHP   2. require() C:\OSPanel\domains\dream-loft.local\index.php:17
+[26-Apr-2018 10:26:03 UTC] PHP   3. require_once() C:\OSPanel\domains\dream-loft.local\wp-blog-header.php:19
+[26-Apr-2018 10:26:03 UTC] PHP   4. include() C:\OSPanel\domains\dream-loft.local\wp-includes\template-loader.php:74
+[26-Apr-2018 10:26:03 UTC] PHP   5. get_sidebar() C:\OSPanel\domains\dream-loft.local\wp-content\themes\dream-loft\404.php:29
+[26-Apr-2018 10:26:03 UTC] PHP   6. locate_template() C:\OSPanel\domains\dream-loft.local\wp-includes\general-template.php:110
+[26-Apr-2018 10:26:03 UTC] PHP   7. load_template() C:\OSPanel\domains\dream-loft.local\wp-includes\template.php:647
+[26-Apr-2018 10:26:03 UTC] PHP   8. require_once() C:\OSPanel\domains\dream-loft.local\wp-includes\template.php:688
+[26-Apr-2018 10:26:16 UTC] PHP Notice:  Trying to get property of non-object in C:\OSPanel\domains\dream-loft.local\wp-content\themes\dream-loft\sidebar.php on line 23
+[26-Apr-2018 10:26:16 UTC] PHP Stack trace:
+[26-Apr-2018 10:26:16 UTC] PHP   1. {main}() C:\OSPanel\domains\dream-loft.local\index.php:0
+[26-Apr-2018 10:26:16 UTC] PHP   2. require() C:\OSPanel\domains\dream-loft.local\index.php:17
+[26-Apr-2018 10:26:16 UTC] PHP   3. require_once() C:\OSPanel\domains\dream-loft.local\wp-blog-header.php:19
+[26-Apr-2018 10:26:16 UTC] PHP   4. include() C:\OSPanel\domains\dream-loft.local\wp-includes\template-loader.php:74
+[26-Apr-2018 10:26:16 UTC] PHP   5. get_sidebar() C:\OSPanel\domains\dream-loft.local\wp-content\themes\dream-loft\404.php:29
+[26-Apr-2018 10:26:16 UTC] PHP   6. locate_template() C:\OSPanel\domains\dream-loft.local\wp-includes\general-template.php:110
+[26-Apr-2018 10:26:16 UTC] PHP   7. load_template() C:\OSPanel\domains\dream-loft.local\wp-includes\template.php:647
+[26-Apr-2018 10:26:16 UTC] PHP   8. require_once() C:\OSPanel\domains\dream-loft.local\wp-includes\template.php:688
+[26-Apr-2018 10:28:05 UTC] PHP Notice:  Trying to get property of non-object in C:\OSPanel\domains\dream-loft.local\wp-content\themes\dream-loft\sidebar.php on line 23
+[26-Apr-2018 10:28:05 UTC] PHP Stack trace:
+[26-Apr-2018 10:28:05 UTC] PHP   1. {main}() C:\OSPanel\domains\dream-loft.local\index.php:0
+[26-Apr-2018 10:28:05 UTC] PHP   2. require() C:\OSPanel\domains\dream-loft.local\index.php:17
+[26-Apr-2018 10:28:05 UTC] PHP   3. require_once() C:\OSPanel\domains\dream-loft.local\wp-blog-header.php:19
+[26-Apr-2018 10:28:05 UTC] PHP   4. include() C:\OSPanel\domains\dream-loft.local\wp-includes\template-loader.php:74
+[26-Apr-2018 10:28:05 UTC] PHP   5. get_sidebar() C:\OSPanel\domains\dream-loft.local\wp-content\themes\dream-loft\404.php:29
+[26-Apr-2018 10:28:05 UTC] PHP   6. locate_template() C:\OSPanel\domains\dream-loft.local\wp-includes\general-template.php:110
+[26-Apr-2018 10:28:06 UTC] PHP   7. load_template() C:\OSPanel\domains\dream-loft.local\wp-includes\template.php:647
+[26-Apr-2018 10:28:06 UTC] PHP   8. require_once() C:\OSPanel\domains\dream-loft.local\wp-includes\template.php:688
+[26-Apr-2018 12:20:35 UTC] PHP Notice:  Trying to get property of non-object in C:\OSPanel\domains\dream-loft.local\wp-content\themes\dream-loft\sidebar.php on line 23
+[26-Apr-2018 12:20:35 UTC] PHP Stack trace:
+[26-Apr-2018 12:20:35 UTC] PHP   1. {main}() C:\OSPanel\domains\dream-loft.local\index.php:0
+[26-Apr-2018 12:20:35 UTC] PHP   2. require() C:\OSPanel\domains\dream-loft.local\index.php:17
+[26-Apr-2018 12:20:35 UTC] PHP   3. require_once() C:\OSPanel\domains\dream-loft.local\wp-blog-header.php:19
+[26-Apr-2018 12:20:35 UTC] PHP   4. include() C:\OSPanel\domains\dream-loft.local\wp-includes\template-loader.php:74
+[26-Apr-2018 12:20:35 UTC] PHP   5. get_sidebar() C:\OSPanel\domains\dream-loft.local\wp-content\themes\dream-loft\404.php:29
+[26-Apr-2018 12:20:35 UTC] PHP   6. locate_template() C:\OSPanel\domains\dream-loft.local\wp-includes\general-template.php:110
+[26-Apr-2018 12:20:35 UTC] PHP   7. load_template() C:\OSPanel\domains\dream-loft.local\wp-includes\template.php:647
+[26-Apr-2018 12:20:35 UTC] PHP   8. require_once() C:\OSPanel\domains\dream-loft.local\wp-includes\template.php:688

@@ -26,10 +26,13 @@ if ( !function_exists( 'dreamloft_setup' ) ) :
         // This theme uses wp_nav_menu() in two locations.
         register_nav_menus( [
             'main-menu'    => 'Main menu',
+            'mobile-menu'  => 'Mobile menu',
         ] );
     }
 endif;
 add_action( 'after_setup_theme', 'dreamloft_setup' );
+
+
 
 /**
  * Enqueues scripts and styles.
@@ -59,6 +62,13 @@ function add_class_to_href( $classes, $item ) {
     return $classes;
 }
 add_filter( 'nav_menu_link_attributes', 'add_class_to_href', 10, 2 );
+
+function add_menuclass($ulclass)
+{
+    return preg_replace('/<a /', '<a class="main-nav__link"', $ulclass);
+}
+add_filter('wp_nav_menu', 'add_menuclass');
+
 
 /**
  *

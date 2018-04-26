@@ -119,7 +119,34 @@
     })();
 
     
+    var result = $(".langs__result");
+    var select = $('#lang_choice_1');
+    var item = $(".langs__item");
+    var firstItem = $(".langs__item:first-child");
+    var all = $("*:not(.langs__result)");
+    result.css("background-image", firstItem.css("background-image"));
 
+    result.on("click", function (e) {
+        e.stopPropagation();
+        $(".langs__dd").toggleClass("active");
+    });
+
+    all.on("click", function () {
+        $(".langs__dd").removeClass("active");
+    });
+
+    $(item).on("click", function () {
+        var $this = $(this);
+        result.html($this.html());
+        var attr = $this.attr("rel");
+        result.css("background-image", $this.css("background-image"));
+        $(".langs__dd").removeClass("active");
+        var others = select.find('option')
+        var langLink = $('.lang-item a[lang="' + attr + '"]');
+
+        langLink[0].click();
+        
+    })
     
     (function() {
 
