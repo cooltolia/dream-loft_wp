@@ -69,6 +69,19 @@ function add_menuclass($ulclass)
 }
 add_filter('wp_nav_menu', 'add_menuclass');
 
+/* function add_specific_menu_location_atts($atts, $item, $args)
+{
+    // check if the item is in the primary menu
+    if ($args->theme_location == 'primary') {
+        // add the desired attributes:
+        $atts['class'] = 'menu-link-class';
+    }
+    return $atts;
+}
+add_filter('nav_menu_link_attributes', 'add_specific_menu_location_atts', 10, 3);
+https://codex.wordpress.org/Plugin_API/Filter_Reference/nav_menu_link_attributes
+ */
+
 
 /**
  *
